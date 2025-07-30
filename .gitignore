@@ -1,0 +1,86 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# The .vscode folder contains launch configuration and tasks you configure in
+# VS Code which you may wish to be included in version control, so this line
+# is commented out by default.
+#.vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Android Studio will place build artifacts here
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+# Hive database files (local data storage)
+*.hive
+*.lock
+
+# Generated files (can be regenerated with build_runner)
+*.g.dart
+*.freezed.dart
+
+# iOS specific
+**/ios/Flutter/flutter_export_environment.sh
+**/ios/ServiceDefinitions.json
+**/ios/Runner/GeneratedPluginRegistrant.*
+
+# macOS
+**/macos/Flutter/ephemeral/
+**/macos/Flutter/flutter_export_environment.sh
+
+# Windows
+**/windows/flutter/ephemeral/
+
+# Web
+/web/
+
+# Coverage
+coverage/
+
+# App icons and assets (uncomment if you don't want to track these)
+# /assets/
+# /android/app/src/main/res/mipmap-*/
+# /ios/Runner/Assets.xcassets/AppIcon.appiconset/
+
+# Environment files (if you add any API keys later)
+.env
+.env.local
+.env.*.local
+
+# Firebase config files (if you add Firebase later)
+# /android/app/google-services.json
+# /ios/Runner/GoogleService-Info.plist
+# /lib/firebase_options.dart
